@@ -113,7 +113,6 @@ export default {
           </ul>
 
         </div>
-
         <div class="img-footer">
           <img src="../assets/img/dc-logo-bg.png" alt="">
         </div>
@@ -144,16 +143,16 @@ footer {
   background-repeat: no-repeat;
 }
 
-.img-footer{
+.img-footer {
   position: relative;
-    width: 50%;
+  width: 50%;
 }
 
-.img-footer > img{
+.img-footer>img {
   position: absolute;
-    top: 50%;
-    transform: translate(55px,-50%);
-    object-fit: cover;
+  top: 50%;
+  transform: translate(55px, -50%);
+  object-fit: cover;
 }
 </style>
 
