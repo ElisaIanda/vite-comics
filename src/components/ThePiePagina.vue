@@ -12,7 +12,15 @@ export default {
                     SIGN-UP NOW!
                 </button>
 
-                <h4>FOLLOW US</h4>
+                <div class="d-flex align-items-center gap-3">
+                    <h4>FOLLOW US</h4>
+                    <img src="../assets/img/footer-facebook.png" alt="">
+                    <img src="../assets/img/footer-twitter.png" alt="">
+                    <img src="../assets/img/footer-youtube.png" alt="">
+                    <img src="../assets/img/footer-pinterest.png" alt="">
+                    <img src="../assets/img/footer-periscope.png" alt="">
+
+                </div>
             </div>
         </div>
     </div>
@@ -21,14 +29,15 @@ export default {
 <style lang="scss" scoped>
 @use"../styles/partials/variable" as *;
 
-.bg-piepagina{
+.bg-piepagina {
     background-color: $my-color-secondary;
 }
-h4{
+
+h4 {
     color: $my-color-primary;
 }
 
-button{
+button {
     border-color: $my-color-primary;
     background-color: transparent;
     color: $my-color-text;
