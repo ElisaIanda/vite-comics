@@ -70,8 +70,9 @@ export default {
   width: 70px;
 }
 
-.nav-link .active{
+.active{
   color: $my-color-primary ;
+  border-bottom: 1px solid;
 }
 
 </style>

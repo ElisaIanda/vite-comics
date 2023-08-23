@@ -4,24 +4,32 @@ import TheHeader from "./components/TheHeader.vue";
 import TheFooter from "./components/TheFooter.vue";
 import Banner from "./components/Banner.vue"
 import ThePiePagina from "./components/ThePiePagina.vue";
+import AllCard from "./components/AllCard.vue"
+import Jumbotron from "./components/Jumbotron.vue";
 
 export default {
   components: {
-  TheHeader,
-  TheFooter,
-  Banner,
-  ThePiePagina,
-}
+    TheHeader,
+    TheFooter,
+    Banner,
+    ThePiePagina,
+    AllCard,
+    Jumbotron,
+  }
 }
 </script>
 
 <template>
   <TheHeader></TheHeader>
-<main class="p-3">
-  <div class="container">
-    <h4> Contect Goes Here</h4>
-  </div>
-</main>
+  <Jumbotron></Jumbotron>
+  <main class="p-3">
+    <AllCard></AllCard>
+    <div class="d-flex justify-content-center mb-3">
+      <button>
+        LOAD MORE
+      </button>
+    </div>
+  </main>
   <Banner></Banner>
 
   <TheFooter></TheFooter>
@@ -31,12 +39,18 @@ export default {
 
 <style lang="scss">
 @use"../src/styles/partials/variable" as *;
-main{
-  background-color: black;
+
+main {
+  background-color: #1c1c1c;
 }
 
-h4{
+button{
   color: $my-color-text;
+    background-color: $my-color-primary;
+    border: none;
+    padding: 0.5rem;
+    font-weight: 700;
 }
+
 </style>
 

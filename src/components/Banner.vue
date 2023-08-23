@@ -6,8 +6,8 @@ export default {
 
 <template>
     <div class="bg-banner">
-        <div class="container py-4">
-            <div class="d-flex">
+        <div class="container py-5">
+            <div class="d-flex py-2">
                 <div class="d-flex align-items-center gap-2">
                     <img  class="img-width" src="../assets/img/buy-comics-digital-comics.png" alt="">
                     <h5 class="img-title">DIGITAL COMICS</h5>
