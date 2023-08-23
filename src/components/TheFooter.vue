@@ -141,6 +141,7 @@ export default {
 footer {
   background-image: url(../assets/img/footer-bg.jpg);
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 .img-footer {
